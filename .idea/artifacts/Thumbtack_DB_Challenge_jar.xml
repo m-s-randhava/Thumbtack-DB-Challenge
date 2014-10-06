@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Thumbtack-DB-Challenge:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Thumbtack_DB_Challenge_jar</output-path>
+    <root id="archive" name="Thumbtack-DB-Challenge.jar">
+      <element id="module-output" name="Thumbtack-DB-Challenge" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/com.springsource.org.apache.log4j-1.2.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/com.springsource.javax.jms-1.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.log4j:com.springsource.org.apache.log4j:1.2.16" type="repository">
+    <properties maven-id="org.apache.log4j:com.springsource.org.apache.log4j:1.2.16" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.org.apache.log4j-1.2.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.springsource.javax.jms-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
