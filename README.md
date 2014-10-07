@@ -4,8 +4,8 @@ Thumbtack-DB-Challenge
 
 There are 2 jar files that are provided in this project:
 
-Thumbtack-DB-Challenge.jar
-Thumbtack-DB-Challenge-TestSuite.jar
+   Thumbtack-DB-Challenge.jar
+   Thumbtack-DB-Challenge-TestSuite.jar
 
 To execute simply do:
 
