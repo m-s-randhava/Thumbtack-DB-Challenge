@@ -194,4 +194,29 @@ public class SimpleDBChallengeTest {
         result = this.sdc.process_input(c12);
         Assert.assertTrue(result.isEnd());
     }
+
+    @Test
+    public void testProcess_input_7() throws Exception {
+        String c1 = "SET a 10";
+        String c2 = "NUMEQUALTO 10";
+        String c3 = "GET a";
+        String c4 = "SET a 11";
+        String c5 = "NUMEQUALTO 10";
+        String c6 = "NUMEQUALTO 11";
+        String c7 = "GET a";
+        Result result;
+
+        result = this.sdc.process_input(c1);
+        result = this.sdc.process_input(c2);
+        Assert.assertEquals(1, result.getResult());
+        result = this.sdc.process_input(c3);
+        Assert.assertEquals("10", result.getResult());
+        result = this.sdc.process_input(c4);
+        result = this.sdc.process_input(c5);
+        Assert.assertEquals(0, result.getResult());
+        result = this.sdc.process_input(c6);
+        Assert.assertEquals(1, result.getResult());
+        result = this.sdc.process_input(c7);
+        Assert.assertEquals("11", result.getResult());
+    }
 }

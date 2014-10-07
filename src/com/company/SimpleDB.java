@@ -260,6 +260,8 @@ public class SimpleDB {
             if (this.db.containsKey(name)) {
                 String old_value = this.db.get(name);
                 this.values_deltas.decrementValueCount(old_value);
+                this.db.put(name, value);
+                this.values_deltas.incrementValueCount(value);
             } else {
                 this.db.put(name, value);
                 this.values_deltas.incrementValueCount(value);
