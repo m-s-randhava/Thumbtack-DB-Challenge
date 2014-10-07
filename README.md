@@ -23,3 +23,11 @@ KEY ASSUMPTIONS
           the implement the illusion of a scratchpad.  No locking,
           etc. is thus in place
 2.  Data resides in memory at all times and is not persisted ever
+
+SIMPLIFICATIONS
+---------------
+
+1.  To keep things simple, I simplified all datatypes to be
+    'Strings.'
+      a.  So, in this KEY => VALUE DB implementation, all 
+          VALUE objects were treated as Strings as a simplification.
